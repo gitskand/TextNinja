@@ -1,0 +1,10 @@
+react componets and elements:- we can merge all of the individual components to make a parent component which will be the final UI for the homepage. Components in React basically return a piece of JSX code that tells what should be rendered on the screen. Normally there are two types of compontents in react js and those are "Functional components" and "Class based compomets" in modern version of react we use Funtional based compenents, syntax instance is given below,
+
+const Democomponent=()=>
+{
+    return <h1>Welcome Message!</h1>;
+}
+
+these are basically js funtions only 
+
+ Note: -  The functional components are not aware of the other components in your program whereas the class components can work with each other. However the syntax to the class based components is rather complex in writing that is why we use function based for the ui. Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.  		
